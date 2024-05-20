@@ -101,6 +101,35 @@ vim /etc/bind/local.conf
  ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/60295a6e-6c04-40fa-86f5-78e70eba6d8e)  
 
 
+**DOCKER**   
+# control bind-chroot disabled   
+# grep -q KRB5RCACHETYPE /etc/sysconfig/bind || echo 'KRB5RCACHETYPE="none"' >> /etc/sysconfig/bind   
+# grep -q 'bind-dns' /etc/bind/named.conf || echo 'include "/var/lib/samba/bind-dns/named.conf";' >> /etc/bind/named.conf   
+
+Добавить в файл  /etc/bind/options.conf:   
+tkey-gssapi-keytab "/var/lib/samba/bind-dns/dns.keytab";   
+        minimal-responses yes;     
+category lame-servers {null;};    
+# systemctl stop bind   
+
+# rm -f /etc/samba/smb.conf    
+# rm -rf /var/lib/samba    
+# rm -rf /var/cache/samba   
+# mkdir -p /var/lib/samba/sysvol   
+Меняем хостнейм   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/db02a5d2-1d99-434b-81aa-f26245ce1bfb)   
+
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/96658d6b-8019-4140-b5f0-cc93dca0431d)   
+
+# samba-tool domain provision --realm=demo.chrt --domain demo --adminpass='Pa$$word' --dns-backend=BIND9_DLZ --server-role=dc   
+# systemctl restart samba   
+# systemctl restart bind   
+
+
+
+
+
+
  
 
 
