@@ -121,7 +121,7 @@ mkdir -p /var/lib/samba/sysvol
 
 ![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/96658d6b-8019-4140-b5f0-cc93dca0431d)   
 
-samba-tool domain provision --realm=demo.chrt --domain demo --adminpass='Pa$$word' --dns-backend=BIND9_DLZ --server-role=dc   
+samba-tool domain provision --realm=demo.chrt --domain demo --adminpass='P@ssw0rd' --dns-backend=BIND9_DLZ --server-role=dc   
 systemctl restart samba   
 systemctl restart bind   
 
