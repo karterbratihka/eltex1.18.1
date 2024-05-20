@@ -153,6 +153,18 @@ https://download.moodle.org/download.php/direct/stable404/moodle-4.4.tgz
 ![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/64e8759c-b7f0-4050-b68e-d7df1f9390ef)  
 ![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/ef229343-64ac-4ff5-b4b2-452bf43c6053)    
 ![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/c3e5b8a3-cfec-4d50-9f45-bdf142b024d4)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/7053d6d7-2364-4af4-895f-5266cf0c1ad1)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/f8cfcf31-eb5f-4e61-8c1c-56fe5d962b42)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/6014e44a-422e-4f9a-b44d-3537675607da)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/0b3bc2a7-a4bd-4770-8e70-722a50209cde)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/a26683df-4236-480e-a01a-68ab27273e45)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/a7d07b5b-7ced-4e41-9993-941e48c486e5)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/cf1011fd-a329-48a2-9466-e1f135866d8f)   
+Идём на HQ-CLI и нажимаем обновить   
+Добавить пользователей - Администрирование - Добавить пользователей   
+Добавить группы - Администрирование - Глобальные группы   
+
+
 
 
 
