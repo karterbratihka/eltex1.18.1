@@ -126,6 +126,25 @@ systemctl restart samba
 systemctl restart bind   
 
 
+**MOODLE**  
+
+ Меняем интерфейс BR-SRV на  вм нетворк и удаляем маршрут по умолчанию  
+ ![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/5fa86441-6495-4b5f-a1d8-b68bb66107c1)   
+ Через PuTTY   
+apt-get install -y apache2 apache2-base apache2-httpd-prefork apache2-mod_php8.1 apache2-mods   
+
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/229a46f4-58f1-4354-b62f-c066f8a1cc73)   
+
+apt-get -y install php8.1 php8.1-curl php8.1-fileinfo php8.1-fpm-fcgi php8.1-gd php8.1-intl php8.1-ldap php8.1-mbstring php8.1-mysqlnd php8.1-mysqlnd-mysqli php8.1-opcache php8.1-soap php8.1-sodium php8.1-xmlreader php8.1-xmlrpc php8.1-zip php8.1-openssl   
+apt-get install MySQL-server -y (https://docs.moodle.org/404/en/MySQL)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/d2bc7153-b610-4084-90ac-e8ef2bf741b5)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/12a055d2-e519-472f-a9f7-9095edc0f1f1)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/c28d3074-146e-4a4c-bfb9-7e679674ad2e)  
+
+
+
+
+
 
 
 
