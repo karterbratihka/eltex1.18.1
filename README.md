@@ -1,7 +1,7 @@
 # eltexrus
 cli 3.3.3.2/30 - isp 1.1.1.1/30 2.2.2.1 3.3.3.1 - hq-r gi1/0/1 1.1.1.2 gi1/0/2 192.168.100.1/26 10.10.10.1/30 - hq-srv 192.168.100.2/26 - br-r 2.2.2.2 172.16.100.1/28 10.10.10.2/30 - br-srv 172.16.100.2/28 - hq-cli dhcp - hq-ad 192.168.100.3/28  
 hostnamectl set-hostname BR-SRV - exec bash .
-echo 172.16.100.2/28 > /etc/net/ifaces/ens192/ipv4address - echo default via 172.16.100.1 > /etc/net/ifaces/ens192/ipv4route - echo nameserver 192.168.100.2 > /etc/net/ifaces/ens192/resolf.conf - systemctl restart network - ip a - ping 172.16.100.1 .
+echo 172.16.100.2/28 >   /etc/net/ifaces/ens192/ipv4address - echo default via 172.16.100.1 > /etc/net/ifaces/ens192/ipv4route - echo nameserver 192.168.100.2 > /etc/net/ifaces/ens192/resolf.conf - systemctl restart network - ip a - ping 172.16.100.1 .
 nat hq-r - object-group network LOCAL_NET ip address-range 192.168.100.1-192.168.100.62 (172.16.100.1-14) - exit - object-group network PUBLIC_POOL - ip address-range 1.1.1.2 (2.2.2.2) - exit - nat source - pool TRANSLATE_ADDRESS - ip address-range 1.1.1.2 (2.2.2.2) - exit - ruleset SNAT - to interface gi1/0/1 - rule 1 - match source-address LOCAL_NET - action source-nat - pool TRANSLATE_ADDRESS - enable - exit - exit - commit - confirm - ip route 0.0.0.0/0 1.1.1.1 (2.2.2.1) - check ping 8.8.8.8 source ip 192.168.100.1 .
 dhcp hq-srv - vim /etc/ifaces/ens192/options (dhcp) -esc-:wq .
 dhcp hq-r - ip dhcp-server - ip dhcp-server pool SIMPLE - network 192.168.100.0/26 - address-range 192.168.100.1-192.168.100.62 - excluded-address-range 192.168.100.1 - address 192.168.100.2 mac-address (ip a) - default-router 192.168.100.1 - dns-server 192.168.100.2 - exit . (again ip dhcp server) - show ip dhcp binding .
