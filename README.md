@@ -81,4 +81,17 @@ systemctl enable --now bind
 vim /etc/bind/local.conf     
 ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/3ca151d5-cfda-4af8-b488-818fef4bbc8e)   
 ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/f3ace640-a198-49ce-9943-abcaaf3e1d71)
+Прямые зоны   
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/605920ce-9c7b-4f7d-a8e5-1eb515371c47)  
+![image](https://github.com/karterbratihka/eltexrus/assets/154001162/ba2e4366-3cfb-4e52-b6f8-7f8f69dc6d31)  
+
+Обратные зоны
+ 
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/7557e1a0-593a-4737-a56c-3778ca54ffdd)  
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/48a93c3c-4ca2-4c00-a6bc-3ffc52224ed9)  
+
+
+Выдаём права
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/49e60767-13eb-42d3-ad7a-63b6d55b9911)   
+
 
