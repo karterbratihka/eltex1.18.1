@@ -65,5 +65,10 @@ action deny
 match protocol tcp  
 match source-address 3.3.3.2 255.255.255.252  
 match destination-port 2222  
-enable
+enable   
+exit  
+rule 2  
+action permit  
+enable  
+exit  
 end - commit - confirm
