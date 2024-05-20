@@ -102,9 +102,9 @@ vim /etc/bind/local.conf
 
 
 **DOCKER**   
-# control bind-chroot disabled   
-# grep -q KRB5RCACHETYPE /etc/sysconfig/bind || echo 'KRB5RCACHETYPE="none"' >> /etc/sysconfig/bind   
-# grep -q 'bind-dns' /etc/bind/named.conf || echo 'include "/var/lib/samba/bind-dns/named.conf";' >> /etc/bind/named.conf   
+**# control bind-chroot disabled   
+**# grep -**q KRB5RCACHETYPE /etc/sysconfig/bind || echo 'KRB5RCACHETYPE="none"' >> /etc/sysconfig/bind   
+# grep -q 'bind-dns' /etc/bind/named.conf || echo 'include "/var/lib/samba/bind-dns/named.conf";' >> /etc/bind/named.conf   **********
 
 Добавить в файл  /etc/bind/options.conf:   
 tkey-gssapi-keytab "/var/lib/samba/bind-dns/dns.keytab";   
