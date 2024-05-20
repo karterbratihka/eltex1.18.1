@@ -73,3 +73,7 @@ action permit
 enable  
 exit  
 end - commit - confirm
+
+**DNS**  
+vim /etc/bind/options.conf  
+![image](https://github.com/karterbratihka/eltexrus/assets/154001162/580ef92b-7673-4ddd-8a9d-ac0c7441ffd6)
