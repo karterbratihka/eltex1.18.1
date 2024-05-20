@@ -88,10 +88,20 @@ vim /etc/bind/local.conf
 Обратные зоны
  
  ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/7557e1a0-593a-4737-a56c-3778ca54ffdd)  
- ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/48a93c3c-4ca2-4c00-a6bc-3ffc52224ed9)  
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/48a93c3c-4ca2-4c00-a6bc-3ffc52224ed9)     
 
-
-Выдаём права
+Выдаём права  
  ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/49e60767-13eb-42d3-ad7a-63b6d55b9911)   
+ **NTP**  
+ HQ-R  
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/93183d5b-6770-406d-959a-9ce1d526b3f4)   
+ BR-R  
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/bcfd84bf-0bad-4411-b0aa-948605e4ccd1)   
+ Linux   
+ ![image](https://github.com/karterbratihka/eltexrus/assets/154001162/60295a6e-6c04-40fa-86f5-78e70eba6d8e)  
+
+
+ 
+
 
 
