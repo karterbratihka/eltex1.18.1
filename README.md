@@ -57,7 +57,7 @@ iperf3 - cli dns 8.8.8.8 - apt-get update - apt-get install iperf3 - iperf (-R) 
 backup eltex - archive - time-period 1440 - type local - by-commit - count-backup 30 - exit - dir flash:backup/  
 **SHH**  
 hq-r - object-group service SRV_SSH - port range 2222 - exit - object-group network NETWORK_POOL - ip address-range 192.168.100.2 - exit - nat destination - pool SERVER_POOL - ip address 192.168.100.2 - ip port 22 - exit - ruleset DNAT - from interface gi1/0/1 - rule 1 - match protocol tcp - match destination-address PUBLIC_POOL - match destination-port SRV_SSH - action destination-nat pool SERVER_POOL - enable - exit -exit .
-br-srv - ssh@user1.1.1.2 -p 2222
+br-srv - ssh@user1.1.1.2 -p 2222   
 **ACL**   
 hq-r - ip access-list extended HQ
 rule 1  
