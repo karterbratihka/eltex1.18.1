@@ -76,4 +76,9 @@ end - commit - confirm
 
 **DNS**  
 vim /etc/bind/options.conf  
-![image](https://github.com/karterbratihka/eltexrus/assets/154001162/580ef92b-7673-4ddd-8a9d-ac0c7441ffd6)
+![image](https://github.com/karterbratihka/eltexrus/assets/154001162/580ef92b-7673-4ddd-8a9d-ac0c7441ffd6)  
+systemctl enable --now bind  
+vim /etc/bind/local.conf     
+![image](https://github.com/karterbratihka/eltexrus/assets/154001162/3ca151d5-cfda-4af8-b488-818fef4bbc8e)   
+![image](https://github.com/karterbratihka/eltexrus/assets/154001162/f3ace640-a198-49ce-9943-abcaaf3e1d71)
+
