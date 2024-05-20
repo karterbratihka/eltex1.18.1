@@ -163,9 +163,35 @@ https://download.moodle.org/download.php/direct/stable404/moodle-4.4.tgz
 Идём на HQ-CLI и нажимаем обновить   
 Добавить пользователей - Администрирование - Добавить пользователей   
 Добавить группы - Администрирование - Глобальные группы   
+Для исправления ошибки с докером   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/a2f4b713-0ea8-4c07-ba78-7c2a0947bb31)   
 
-
-
+services:   
+  MediaWiki:   
+    container_name: wiki   
+    image: mediawiki   
+    restart: always   
+    ports:    
+      - 81:80    
+    links:    
+      - database   
+    volumes:   
+      - images:/var/www/html/images   
+      # ./LocalSettings.php:/var/www/html/LocalSettings.php   
+  database:   
+    container_name: db   
+    image: mysql   
+    environment:   
+      MYSQL_DATABASE: mediawiki   
+      MYSQL_USER: wiki    
+      MYSQL_PASSWORD: DEP@ssw0rd    
+      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'    
+    volumes:    
+      - dbvolume:/var/lib/mysql   
+volumes:    
+  dbvolume:    
+      external: true   
+  images:    
 
 
 
