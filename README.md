@@ -109,9 +109,9 @@ grep -q 'bind-dns' /etc/bind/named.conf || echo 'include "/var/lib/samba/bind-dn
 Добавить в файл  /etc/bind/options.conf:   
 tkey-gssapi-keytab "/var/lib/samba/bind-dns/dns.keytab";   
         minimal-responses yes;     
-category lame-servers {null;};    
-systemctl stop bind   
+category lame-servers {null;};   
 
+systemctl stop bind   
 rm -f /etc/samba/smb.conf    
 rm -rf /var/lib/samba    
 rm -rf /var/cache/samba   
