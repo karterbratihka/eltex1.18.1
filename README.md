@@ -139,7 +139,34 @@ apt-get -y install php8.1 php8.1-curl php8.1-fileinfo php8.1-fpm-fcgi php8.1-gd 
 apt-get install MySQL-server -y (https://docs.moodle.org/404/en/MySQL)   
 ![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/d2bc7153-b610-4084-90ac-e8ef2bf741b5)   
 ![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/12a055d2-e519-472f-a9f7-9095edc0f1f1)   
-![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/c28d3074-146e-4a4c-bfb9-7e679674ad2e)  
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/c28d3074-146e-4a4c-bfb9-7e679674ad2e)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/7af7c0b3-afe1-4520-b93f-988e60533dcb)  
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/5e021e8c-2efa-45be-9bac-28a6d0caf7bd)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/9da62022-038d-4ea5-b307-c2e36dd616a4)  
+Скачать этот пакет через wget     
+https://download.moodle.org/download.php/direct/stable404/moodle-4.4.tgz   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/03d02064-ca7a-48ab-a340-e88e3a7143ef)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/caae0063-4f42-48e7-807a-ce00f5464bd5)  
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/9dfcf851-8449-406a-88b0-615045d9bbc0)  
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/f17360e7-cf82-47c7-8eb0-b6e2403bf5af)   
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/c5a36801-68a8-4dac-85b8-067102c5cc51)  
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/64e8759c-b7f0-4050-b68e-d7df1f9390ef)  
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/ef229343-64ac-4ff5-b4b2-452bf43c6053)    
+![image](https://github.com/karterbratihka/eltex1.18.1/assets/154001162/c3e5b8a3-cfec-4d50-9f45-bdf142b024d4)   
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
 
 
 
